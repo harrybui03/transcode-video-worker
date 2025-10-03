@@ -1,0 +1,708 @@
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:06:24+07:00"}
+{"level":"info","time":"2025-09-29T23:06:24+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:06:24+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:06:24+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:06:42+07:00","message":"processing job"}
+{"level":"info","job_id":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:06:42+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/2d1f5124-d384-4d4a-9d73-4182e880be14/input/152085-802335503_small.mp4","time":"2025-09-29T23:06:57+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/b4a12385-44f0-4ce5-8a6d-c2265d38d10f/input/152085-802335503_small.mp4","time":"2025-09-29T23:07:44+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:07:44+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:07:44+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-29T23:07:44+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-29T23:07:44+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-29T23:07:44+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-29T23:07:44+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-29T23:07:46+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-29T23:07:46+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-29T23:07:46+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-29T23:07:46+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:07:48+07:00"}
+{"level":"info","time":"2025-09-29T23:07:48+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:07:48+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:07:48+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:07:59+07:00","message":"processing job"}
+{"level":"info","job_id":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:07:59+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/2d1f5124-d384-4d4a-9d73-4182e880be14/input/152085-802335503_small.mp4","time":"2025-09-29T23:07:59+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:07:59+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/b4a12385-44f0-4ce5-8a6d-c2265d38d10f/input/152085-802335503_small.mp4","time":"2025-09-29T23:07:59+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:07:59+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-29T23:07:59+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-29T23:08:18+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-29T23:08:18+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-29T23:11:13+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-29T23:11:13+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-29T23:11:13+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-29T23:11:13+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:11:16+07:00"}
+{"level":"info","time":"2025-09-29T23:11:16+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:11:16+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:11:16+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:11:18+07:00","message":"processing job"}
+{"level":"info","job_id":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:11:18+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/b4a12385-44f0-4ce5-8a6d-c2265d38d10f/input/152085-802335503_small.mp4","time":"2025-09-29T23:11:18+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/2d1f5124-d384-4d4a-9d73-4182e880be14/input/152085-802335503_small.mp4","time":"2025-09-29T23:11:18+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-29T23:11:19+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-29T23:11:19+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:11:26+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:11:26+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-29T23:11:26+07:00","message":"failed to handle message"}
+{"level":"info","destination_prefix":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:11:26+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:11:26+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-29T23:11:50+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-29T23:11:50+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-29T23:12:40+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-29T23:12:40+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-29T23:12:40+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-29T23:12:40+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:12:42+07:00"}
+{"level":"info","time":"2025-09-29T23:12:42+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:12:42+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:12:42+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:12:45+07:00","message":"processing job"}
+{"level":"info","job_id":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:12:45+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/2d1f5124-d384-4d4a-9d73-4182e880be14/input/152085-802335503_small.mp4","time":"2025-09-29T23:12:45+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/b4a12385-44f0-4ce5-8a6d-c2265d38d10f/input/152085-802335503_small.mp4","time":"2025-09-29T23:12:45+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-29T23:12:45+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-29T23:12:45+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:12:50+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:12:50+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-29T23:13:34+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-29T23:13:34+07:00","message":"failed to acknowledge message"}
+{"level":"info","destination_prefix":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:13:34+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:13:42+07:00","message":"failed to upload directory"}
+{"level":"info","time":"2025-09-29T23:15:50+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-29T23:15:50+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-29T23:15:50+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-29T23:15:50+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:15:52+07:00"}
+{"level":"info","time":"2025-09-29T23:15:52+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:15:52+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:15:52+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:15:54+07:00","message":"processing job"}
+{"level":"info","job_id":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:15:54+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/b4a12385-44f0-4ce5-8a6d-c2265d38d10f/input/152085-802335503_small.mp4","time":"2025-09-29T23:15:54+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/2d1f5124-d384-4d4a-9d73-4182e880be14/input/152085-802335503_small.mp4","time":"2025-09-29T23:15:54+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-29T23:15:54+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-29T23:15:54+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:16:00+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-29T23:17:18+07:00","message":"failed to upload directory"}
+{"level":"info","destination_prefix":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:17:18+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-09-29T23:17:18+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-29T23:17:18+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-29T23:17:18+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-29T23:17:18+07:00","message":"RabbitMQ connection closed"}
+{"level":"error","error":"context canceled","time":"2025-09-29T23:17:18+07:00","message":"failed to upload directory"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:17:20+07:00"}
+{"level":"info","time":"2025-09-29T23:17:20+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:17:20+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:17:20+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:17:22+07:00","message":"processing job"}
+{"level":"info","job_id":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:17:22+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/b4a12385-44f0-4ce5-8a6d-c2265d38d10f/input/152085-802335503_small.mp4","time":"2025-09-29T23:17:22+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/2d1f5124-d384-4d4a-9d73-4182e880be14/input/152085-802335503_small.mp4","time":"2025-09-29T23:17:23+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-29T23:17:23+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-29T23:17:23+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"2d1f5124-d384-4d4a-9d73-4182e880be14","time":"2025-09-29T23:17:28+07:00","message":"uploading transcoded files"}
+{"level":"info","destination_prefix":"b4a12385-44f0-4ce5-8a6d-c2265d38d10f","time":"2025-09-29T23:17:28+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-09-29T23:17:35+07:00","message":"deleting original file"}
+{"level":"info","time":"2025-09-29T23:17:38+07:00","message":"deleting original file"}
+{"level":"info","time":"2025-09-29T23:18:50+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-29T23:18:50+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:18:52+07:00"}
+{"level":"info","time":"2025-09-29T23:18:52+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:18:52+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:18:52+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"eada6f3a-abc0-42f0-ab63-738c44ebd3c2","time":"2025-09-29T23:19:09+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/eada6f3a-abc0-42f0-ab63-738c44ebd3c2/input/152085-802335503_small.mp4","time":"2025-09-29T23:19:09+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-29T23:19:09+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"eada6f3a-abc0-42f0-ab63-738c44ebd3c2","time":"2025-09-29T23:19:12+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-09-29T23:52:32+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-29T23:52:32+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-29T23:52:34+07:00"}
+{"level":"info","time":"2025-09-29T23:52:34+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-29T23:52:34+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-29T23:52:34+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"fbe7f884-4fea-42df-a2bd-f3abd049a237","time":"2025-09-29T23:53:03+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/fbe7f884-4fea-42df-a2bd-f3abd049a237/input/152085-802335503_small.mp4","time":"2025-09-29T23:53:03+07:00","message":"downloading input file"}
+{"level":"info","job_id":"93da954a-6792-4672-bb01-454794675a38","time":"2025-09-29T23:54:17+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/93da954a-6792-4672-bb01-454794675a38/input/152085-802335503_small.mp4","time":"2025-09-29T23:54:44+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-29T23:56:14+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-29T23:56:14+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T13:57:29+07:00"}
+{"level":"info","time":"2025-09-30T13:57:29+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T13:57:29+07:00","message":"start http server"}
+{"level":"info","time":"2025-09-30T13:58:18+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T13:58:18+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T13:58:30+07:00"}
+{"level":"info","time":"2025-09-30T13:58:30+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T13:58:30+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T13:58:30+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"9b4ef1cf-fb6f-4deb-b883-9ec929da7afd","time":"2025-09-30T13:59:27+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/9b4ef1cf-fb6f-4deb-b883-9ec929da7afd/input/Nhật Ký Leo rank Hàn  Liệu đây có phải rank vàng không vậy - Brown Đi Rừng (1080p, h264).mp4","time":"2025-09-30T13:59:49+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T14:01:13+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T14:01:13+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T14:01:15+07:00"}
+{"level":"info","time":"2025-09-30T14:01:15+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T14:01:15+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T14:01:15+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"a51d677e-1406-4ff9-b1a7-6e6d573b48a1","time":"2025-09-30T14:01:31+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/a51d677e-1406-4ff9-b1a7-6e6d573b48a1/input/Nhật Ký Leo rank Hàn  Liệu đây có phải rank vàng không vậy - Brown Đi Rừng (1080p, h264).mp4","time":"2025-09-30T14:01:38+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T14:01:44+07:00","message":"transcode file"}
+{"level":"error","time":"2025-09-30T14:10:05+07:00","message":"failed to acknowledge message"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T14:21:37+07:00"}
+{"level":"info","time":"2025-09-30T14:21:37+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T14:21:37+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T14:21:37+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"55d1abb9-5d2b-461a-b797-ecd4a36f6e3e","time":"2025-09-30T14:21:37+07:00","message":"processing job"}
+{"level":"info","job_id":"a51d677e-1406-4ff9-b1a7-6e6d573b48a1","time":"2025-09-30T14:21:37+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/55d1abb9-5d2b-461a-b797-ecd4a36f6e3e/input/152085-802335503_small.mp4","time":"2025-09-30T14:21:44+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/a51d677e-1406-4ff9-b1a7-6e6d573b48a1/input/Nhật Ký Leo rank Hàn  Liệu đây có phải rank vàng không vậy - Brown Đi Rừng (1080p, h264).mp4","time":"2025-09-30T14:21:46+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T14:21:47+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-30T14:21:50+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"55d1abb9-5d2b-461a-b797-ecd4a36f6e3e","time":"2025-09-30T14:22:29+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-09-30T14:24:06+07:00","message":"failed to acknowledge message"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T14:44:16+07:00"}
+{"level":"info","time":"2025-09-30T14:44:16+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T14:44:16+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T14:44:16+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","time":"2025-09-30T14:44:42+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T14:44:42+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T14:45:10+07:00"}
+{"level":"info","time":"2025-09-30T14:45:10+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T14:45:10+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T14:45:10+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T14:46:26+07:00","message":"processing job"}
+{"level":"error","error":"record not found","time":"2025-09-30T14:46:26+07:00","message":"failed to find job by id"}
+{"level":"error","time":"2025-09-30T14:46:26+07:00","message":"failed to handle message"}
+{"level":"info","time":"2025-09-30T16:51:39+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T16:51:39+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T16:51:39+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T16:51:39+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T16:51:42+07:00"}
+{"level":"info","time":"2025-09-30T16:51:42+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T16:51:42+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T16:51:42+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"e8204e62-db4a-486f-82c9-31f5ab0ce0e9","time":"2025-09-30T16:51:44+07:00","message":"processing job"}
+{"level":"info","job_id":"1297a97b-efef-4e61-8208-219710e41f9a","time":"2025-09-30T16:51:44+07:00","message":"processing job"}
+{"level":"info","job_id":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T16:51:44+07:00","message":"processing job"}
+{"level":"info","job_id":"b5964c72-7e24-4f4e-a0c6-d17f65384b88","time":"2025-09-30T16:51:45+07:00","message":"processing job"}
+{"level":"info","job_id":"87bd43a4-f555-4d8c-882b-769aad01756c","time":"2025-09-30T16:51:45+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/1297a97b-efef-4e61-8208-219710e41f9a/input/152085-802335503_small.mp4","time":"2025-09-30T16:51:45+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/24e49dcf-4b21-483f-8f4d-c55c4f2a05ea/input/152085-802335503_small.mp4","time":"2025-09-30T16:51:45+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/87bd43a4-f555-4d8c-882b-769aad01756c/input/152085-802335503_small.mp4","time":"2025-09-30T16:51:45+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/b5964c72-7e24-4f4e-a0c6-d17f65384b88/input/152085-802335503_small.mp4","time":"2025-09-30T16:51:45+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/e8204e62-db4a-486f-82c9-31f5ab0ce0e9/input/152085-802335503_small.mp4","time":"2025-09-30T16:51:45+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T16:51:45+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-30T16:51:45+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-30T16:51:45+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-30T16:51:45+07:00","message":"transcode file"}
+{"level":"info","time":"2025-09-30T16:51:45+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"87bd43a4-f555-4d8c-882b-769aad01756c","time":"2025-09-30T16:51:58+07:00","message":"uploading transcoded files"}
+{"level":"info","destination_prefix":"1297a97b-efef-4e61-8208-219710e41f9a","time":"2025-09-30T16:51:58+07:00","message":"uploading transcoded files"}
+{"level":"info","destination_prefix":"b5964c72-7e24-4f4e-a0c6-d17f65384b88","time":"2025-09-30T16:51:58+07:00","message":"uploading transcoded files"}
+{"level":"info","destination_prefix":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T16:51:58+07:00","message":"uploading transcoded files"}
+{"level":"info","destination_prefix":"e8204e62-db4a-486f-82c9-31f5ab0ce0e9","time":"2025-09-30T16:51:58+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-09-30T16:53:24+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T16:53:24+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T16:53:25+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T16:53:25+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T16:53:49+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:20:39+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:20:39+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:20:39+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:20:39+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:20:42+07:00"}
+{"level":"info","time":"2025-09-30T17:20:42+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:20:42+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:20:42+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b5964c72-7e24-4f4e-a0c6-d17f65384b88","time":"2025-09-30T17:20:45+07:00","message":"processing job"}
+{"level":"info","job_id":"e8204e62-db4a-486f-82c9-31f5ab0ce0e9","time":"2025-09-30T17:20:45+07:00","message":"processing job"}
+{"level":"info","job_id":"87bd43a4-f555-4d8c-882b-769aad01756c","time":"2025-09-30T17:20:45+07:00","message":"processing job"}
+{"level":"info","job_id":"1297a97b-efef-4e61-8208-219710e41f9a","time":"2025-09-30T17:20:45+07:00","message":"processing job"}
+{"level":"info","job_id":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T17:20:45+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/24e49dcf-4b21-483f-8f4d-c55c4f2a05ea/input/152085-802335503_small.mp4","time":"2025-09-30T17:20:45+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:20:45+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/1297a97b-efef-4e61-8208-219710e41f9a/input/152085-802335503_small.mp4","time":"2025-09-30T17:20:45+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:20:45+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/87bd43a4-f555-4d8c-882b-769aad01756c/input/152085-802335503_small.mp4","time":"2025-09-30T17:20:45+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/b5964c72-7e24-4f4e-a0c6-d17f65384b88/input/152085-802335503_small.mp4","time":"2025-09-30T17:20:45+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:20:45+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:20:45+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to handle message"}
+{"level":"info","input_file":"temp/e8204e62-db4a-486f-82c9-31f5ab0ce0e9/input/152085-802335503_small.mp4","time":"2025-09-30T17:20:45+07:00","message":"downloading input file"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to handle message"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:20:45+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:20:45+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:20:46+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:20:46+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:29:00+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:29:00+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:29:00+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:29:00+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:29:01+07:00"}
+{"level":"info","time":"2025-09-30T17:29:01+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:29:01+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:29:01+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"1297a97b-efef-4e61-8208-219710e41f9a","time":"2025-09-30T17:29:04+07:00","message":"processing job"}
+{"level":"info","job_id":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T17:29:05+07:00","message":"processing job"}
+{"level":"info","job_id":"e8204e62-db4a-486f-82c9-31f5ab0ce0e9","time":"2025-09-30T17:29:05+07:00","message":"processing job"}
+{"level":"info","job_id":"b5964c72-7e24-4f4e-a0c6-d17f65384b88","time":"2025-09-30T17:29:05+07:00","message":"processing job"}
+{"level":"info","job_id":"87bd43a4-f555-4d8c-882b-769aad01756c","time":"2025-09-30T17:29:07+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/1297a97b-efef-4e61-8208-219710e41f9a/input/152085-802335503_small.mp4","time":"2025-09-30T17:29:07+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:29:07+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/24e49dcf-4b21-483f-8f4d-c55c4f2a05ea/input/152085-802335503_small.mp4","time":"2025-09-30T17:29:07+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:29:07+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/b5964c72-7e24-4f4e-a0c6-d17f65384b88/input/152085-802335503_small.mp4","time":"2025-09-30T17:29:07+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/87bd43a4-f555-4d8c-882b-769aad01756c/input/152085-802335503_small.mp4","time":"2025-09-30T17:29:07+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/e8204e62-db4a-486f-82c9-31f5ab0ce0e9/input/152085-802335503_small.mp4","time":"2025-09-30T17:29:07+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:29:07+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:29:07+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:29:07+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-30T17:29:07+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:29:07+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:29:07+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:29:07+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:29:07+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:29:31+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:29:31+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:29:31+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:29:31+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:31:38+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:31:38+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:31:38+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:31:38+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:31:40+07:00"}
+{"level":"info","time":"2025-09-30T17:31:40+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:31:40+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:31:40+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"87bd43a4-f555-4d8c-882b-769aad01756c","time":"2025-09-30T17:31:42+07:00","message":"processing job"}
+{"level":"info","job_id":"1297a97b-efef-4e61-8208-219710e41f9a","time":"2025-09-30T17:31:42+07:00","message":"processing job"}
+{"level":"info","job_id":"b5964c72-7e24-4f4e-a0c6-d17f65384b88","time":"2025-09-30T17:31:42+07:00","message":"processing job"}
+{"level":"info","job_id":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T17:31:42+07:00","message":"processing job"}
+{"level":"info","job_id":"e8204e62-db4a-486f-82c9-31f5ab0ce0e9","time":"2025-09-30T17:31:42+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/24e49dcf-4b21-483f-8f4d-c55c4f2a05ea/input/152085-802335503_small.mp4","time":"2025-09-30T17:31:42+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:31:42+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/e8204e62-db4a-486f-82c9-31f5ab0ce0e9/input/152085-802335503_small.mp4","time":"2025-09-30T17:31:42+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/1297a97b-efef-4e61-8208-219710e41f9a/input/152085-802335503_small.mp4","time":"2025-09-30T17:31:42+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/87bd43a4-f555-4d8c-882b-769aad01756c/input/152085-802335503_small.mp4","time":"2025-09-30T17:31:44+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:31:44+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:32:33+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:32:33+07:00","message":"failed to download file"}
+{"level":"info","input_file":"temp/b5964c72-7e24-4f4e-a0c6-d17f65384b88/input/152085-802335503_small.mp4","time":"2025-09-30T17:32:33+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:32:34+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:32:34+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:33:55+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:33:55+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:33:55+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:33:55+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:33:56+07:00"}
+{"level":"info","time":"2025-09-30T17:33:56+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:33:56+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:33:56+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"24e49dcf-4b21-483f-8f4d-c55c4f2a05ea","time":"2025-09-30T17:33:58+07:00","message":"processing job"}
+{"level":"info","job_id":"e8204e62-db4a-486f-82c9-31f5ab0ce0e9","time":"2025-09-30T17:33:58+07:00","message":"processing job"}
+{"level":"info","job_id":"1297a97b-efef-4e61-8208-219710e41f9a","time":"2025-09-30T17:33:58+07:00","message":"processing job"}
+{"level":"info","job_id":"b5964c72-7e24-4f4e-a0c6-d17f65384b88","time":"2025-09-30T17:34:00+07:00","message":"processing job"}
+{"level":"info","job_id":"87bd43a4-f555-4d8c-882b-769aad01756c","time":"2025-09-30T17:34:00+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/1297a97b-efef-4e61-8208-219710e41f9a/input/152085-802335503_small.mp4","time":"2025-09-30T17:34:18+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/e8204e62-db4a-486f-82c9-31f5ab0ce0e9/input/152085-802335503_small.mp4","time":"2025-09-30T17:34:18+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/24e49dcf-4b21-483f-8f4d-c55c4f2a05ea/input/152085-802335503_small.mp4","time":"2025-09-30T17:34:19+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/87bd43a4-f555-4d8c-882b-769aad01756c/input/152085-802335503_small.mp4","time":"2025-09-30T17:34:19+07:00","message":"downloading input file"}
+{"level":"info","input_file":"temp/b5964c72-7e24-4f4e-a0c6-d17f65384b88/input/152085-802335503_small.mp4","time":"2025-09-30T17:34:19+07:00","message":"downloading input file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:34:21+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:34:21+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:34:21+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:34:21+07:00","message":"failed to download file"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:34:21+07:00","message":"failed to download file"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to acknowledge message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:34:21+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:35:15+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T17:35:15+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:35:15+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:35:15+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:35:16+07:00"}
+{"level":"info","time":"2025-09-30T17:35:16+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:35:16+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:35:16+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"66ff6089-5204-4d09-8e62-b51212db7953","time":"2025-09-30T17:35:18+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/66ff6089-5204-4d09-8e62-b51212db7953/input/152085-802335503_small.mp4","time":"2025-09-30T17:36:04+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:36:04+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:36:04+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:36:04+07:00","message":"RabbitMQ connection closed"}
+{"level":"error","error":"Get \"http://localhost:9000/edtech-content/?location=\": context canceled","time":"2025-09-30T17:36:04+07:00","message":"failed to download file"}
+{"level":"info","env":"development","time":"2025-09-30T17:36:04+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:36:07+07:00"}
+{"level":"info","time":"2025-09-30T17:36:07+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:36:07+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:36:07+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"66ff6089-5204-4d09-8e62-b51212db7953","time":"2025-09-30T17:36:09+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/66ff6089-5204-4d09-8e62-b51212db7953/input/152085-802335503_small.mp4","time":"2025-09-30T17:36:18+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:36:26+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"66ff6089-5204-4d09-8e62-b51212db7953","time":"2025-09-30T17:36:43+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:37:10+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-30T17:38:16+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:38:16+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:38:21+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:38:21+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:38:21+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:38:21+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:38:22+07:00"}
+{"level":"info","time":"2025-09-30T17:38:22+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:38:23+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:38:23+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"66ff6089-5204-4d09-8e62-b51212db7953","time":"2025-09-30T17:38:24+07:00","message":"processing job"}
+{"level":"info","job_id":"66ff6089-5204-4d09-8e62-b51212db7953","time":"2025-09-30T17:38:31+07:00","message":"job is not running"}
+{"level":"info","job_id":"ef71925a-49b6-47eb-be3a-c9f8dd525542","time":"2025-09-30T17:38:42+07:00","message":"processing job"}
+{"level":"info","job_id":"ef71925a-49b6-47eb-be3a-c9f8dd525542","time":"2025-09-30T17:38:48+07:00","message":"job is not running"}
+{"level":"info","job_id":"c12534ac-8839-47d2-bbd2-3e382b64dc59","time":"2025-09-30T17:39:05+07:00","message":"processing job"}
+{"level":"info","job_id":"c12534ac-8839-47d2-bbd2-3e382b64dc59","time":"2025-09-30T17:39:45+07:00","message":"job is not running"}
+{"level":"error","time":"2025-09-30T17:39:45+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:40:04+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T17:40:04+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:40:04+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:40:04+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:40:06+07:00"}
+{"level":"info","time":"2025-09-30T17:40:06+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:40:06+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:40:06+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"c12534ac-8839-47d2-bbd2-3e382b64dc59","time":"2025-09-30T17:40:09+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/c12534ac-8839-47d2-bbd2-3e382b64dc59/input/152085-802335503_small.mp4","time":"2025-09-30T17:40:19+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:40:19+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"c12534ac-8839-47d2-bbd2-3e382b64dc59","time":"2025-09-30T17:40:22+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:42:03+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-30T17:42:03+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:42:03+07:00","message":"failed to acknowledge message"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:42:08+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:42:08+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","time":"2025-09-30T17:42:08+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T17:42:08+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:42:10+07:00"}
+{"level":"info","time":"2025-09-30T17:42:10+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:42:10+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:42:10+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"c12534ac-8839-47d2-bbd2-3e382b64dc59","time":"2025-09-30T17:42:11+07:00","message":"processing job"}
+{"level":"info","job_id":"c12534ac-8839-47d2-bbd2-3e382b64dc59","time":"2025-09-30T17:42:12+07:00","message":"job is not pending"}
+{"level":"info","job_id":"78a63cf9-7c36-4ddc-a417-3bf74a0e91e7","time":"2025-09-30T17:42:19+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/78a63cf9-7c36-4ddc-a417-3bf74a0e91e7/input/152085-802335503_small.mp4","time":"2025-09-30T17:42:21+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:42:21+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"78a63cf9-7c36-4ddc-a417-3bf74a0e91e7","time":"2025-09-30T17:42:24+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:46:14+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-30T17:46:14+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:46:14+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:46:18+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:46:18+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:46:18+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:46:18+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:46:19+07:00"}
+{"level":"info","time":"2025-09-30T17:46:19+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:46:19+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:46:19+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"78a63cf9-7c36-4ddc-a417-3bf74a0e91e7","time":"2025-09-30T17:46:20+07:00","message":"processing job"}
+{"level":"info","job_id":"78a63cf9-7c36-4ddc-a417-3bf74a0e91e7","time":"2025-09-30T17:46:22+07:00","message":"job is not pending"}
+{"level":"info","job_id":"51ea72ce-3413-4aa7-bacd-9f8ed512b84b","time":"2025-09-30T17:48:10+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/51ea72ce-3413-4aa7-bacd-9f8ed512b84b/input/152085-802335503_small.mp4","time":"2025-09-30T17:48:11+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:48:11+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"51ea72ce-3413-4aa7-bacd-9f8ed512b84b","time":"2025-09-30T17:48:14+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:49:50+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-30T17:49:50+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:49:50+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:49:52+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:49:52+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","env":"development","time":"2025-09-30T17:49:52+07:00","message":"server shutdown"}
+{"level":"info","time":"2025-09-30T17:49:52+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:49:54+07:00"}
+{"level":"info","time":"2025-09-30T17:49:54+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:49:54+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:49:54+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"51ea72ce-3413-4aa7-bacd-9f8ed512b84b","time":"2025-09-30T17:49:56+07:00","message":"processing job"}
+{"level":"info","job_id":"51ea72ce-3413-4aa7-bacd-9f8ed512b84b","time":"2025-09-30T17:49:57+07:00","message":"job is not pending"}
+{"level":"info","time":"2025-09-30T17:50:21+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T17:50:21+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:50:23+07:00"}
+{"level":"info","time":"2025-09-30T17:50:23+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:50:23+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:50:23+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"57402783-66d9-4a56-849e-6163cfead5d6","time":"2025-09-30T17:50:40+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/57402783-66d9-4a56-849e-6163cfead5d6/input/152085-802335503_small.mp4","time":"2025-09-30T17:50:41+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:50:41+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"57402783-66d9-4a56-849e-6163cfead5d6","time":"2025-09-30T17:50:44+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"The specified key does not exist.","time":"2025-09-30T17:52:00+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-30T17:52:00+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T17:52:00+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:53:44+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:53:44+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:53:44+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:53:44+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:53:47+07:00"}
+{"level":"info","time":"2025-09-30T17:53:47+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:53:47+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:53:47+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"57402783-66d9-4a56-849e-6163cfead5d6","time":"2025-09-30T17:53:49+07:00","message":"processing job"}
+{"level":"info","job_id":"57402783-66d9-4a56-849e-6163cfead5d6","time":"2025-09-30T17:53:49+07:00","message":"job is not pending"}
+{"level":"info","job_id":"53978e0b-18e8-4cbd-8821-39c460d3f635","time":"2025-09-30T17:53:54+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/53978e0b-18e8-4cbd-8821-39c460d3f635/input/152085-802335503_small.mp4","time":"2025-09-30T17:53:55+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:53:55+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"53978e0b-18e8-4cbd-8821-39c460d3f635","time":"2025-09-30T17:53:58+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-09-30T17:54:11+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:55:37+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:55:37+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:55:37+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:55:37+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:55:40+07:00"}
+{"level":"info","time":"2025-09-30T17:55:40+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:55:40+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:55:40+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"53978e0b-18e8-4cbd-8821-39c460d3f635","time":"2025-09-30T17:55:42+07:00","message":"processing job"}
+{"level":"info","job_id":"53978e0b-18e8-4cbd-8821-39c460d3f635","time":"2025-09-30T17:55:43+07:00","message":"job is not pending"}
+{"level":"info","job_id":"6a289b79-7639-46c2-b929-a77bfb3d375e","time":"2025-09-30T17:55:48+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/6a289b79-7639-46c2-b929-a77bfb3d375e/input/152085-802335503_small.mp4","time":"2025-09-30T17:55:49+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:55:49+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"6a289b79-7639-46c2-b929-a77bfb3d375e","time":"2025-09-30T17:55:52+07:00","message":"uploading transcoded files"}
+{"level":"info","job_id":"6b77f372-d1c6-4722-9dce-ad7182e2020b","time":"2025-09-30T17:57:44+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/6b77f372-d1c6-4722-9dce-ad7182e2020b/input/152085-802335503_small.mp4","time":"2025-09-30T17:57:44+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:57:44+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"6b77f372-d1c6-4722-9dce-ad7182e2020b","time":"2025-09-30T17:57:47+07:00","message":"uploading transcoded files"}
+{"level":"info","job_id":"2a6cde15-9238-4247-b326-6aa2d6fa72d7","time":"2025-09-30T17:58:10+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/2a6cde15-9238-4247-b326-6aa2d6fa72d7/input/152085-802335503_small.mp4","time":"2025-09-30T17:58:10+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:58:11+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"2a6cde15-9238-4247-b326-6aa2d6fa72d7","time":"2025-09-30T17:58:14+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-09-30T17:58:23+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T17:58:23+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:58:24+07:00"}
+{"level":"info","time":"2025-09-30T17:58:24+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:58:24+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:58:24+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"dd753ca4-05f3-4abe-a846-269680fdd8e8","time":"2025-09-30T17:58:30+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/dd753ca4-05f3-4abe-a846-269680fdd8e8/input/152085-802335503_small.mp4","time":"2025-09-30T17:58:31+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T17:58:31+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"dd753ca4-05f3-4abe-a846-269680fdd8e8","time":"2025-09-30T17:58:34+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-09-30T17:59:42+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T17:59:55+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T17:59:55+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T17:59:55+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T17:59:55+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T17:59:56+07:00"}
+{"level":"info","time":"2025-09-30T17:59:56+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T17:59:56+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T17:59:56+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"d9309e32-db4d-4ca9-a574-114cf16c3a10","time":"2025-09-30T17:59:58+07:00","message":"processing job"}
+{"level":"info","job_id":"dd753ca4-05f3-4abe-a846-269680fdd8e8","time":"2025-09-30T17:59:58+07:00","message":"processing job"}
+{"level":"info","job_id":"dd753ca4-05f3-4abe-a846-269680fdd8e8","time":"2025-09-30T18:00:07+07:00","message":"job is not pending"}
+{"level":"info","input_file":"temp/d9309e32-db4d-4ca9-a574-114cf16c3a10/input/152085-802335503_small.mp4","time":"2025-09-30T18:00:07+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T18:00:07+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"d9309e32-db4d-4ca9-a574-114cf16c3a10","time":"2025-09-30T18:00:10+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-09-30T18:02:39+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T18:03:00+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T18:03:00+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T18:03:00+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-09-30T18:03:00+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T18:03:02+07:00"}
+{"level":"info","time":"2025-09-30T18:03:02+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T18:03:02+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T18:03:02+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"d9309e32-db4d-4ca9-a574-114cf16c3a10","time":"2025-09-30T18:03:04+07:00","message":"processing job"}
+{"level":"info","job_id":"d9309e32-db4d-4ca9-a574-114cf16c3a10","time":"2025-09-30T18:03:06+07:00","message":"job is not pending"}
+{"level":"info","job_id":"26063fa3-45da-4920-a037-fc5ae7249bf3","time":"2025-09-30T18:03:18+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/26063fa3-45da-4920-a037-fc5ae7249bf3/input/152085-802335503_small.mp4","time":"2025-09-30T18:03:19+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-09-30T18:03:19+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"26063fa3-45da-4920-a037-fc5ae7249bf3","time":"2025-09-30T18:03:22+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"open 1080p.m3u8: no such file or directory","time":"2025-09-30T18:05:16+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-09-30T18:05:16+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-09-30T18:06:01+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-09-30T18:06:58+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-09-30T18:06:58+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-09-30T18:06:58+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-09-30T18:06:58+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-09-30T18:06:59+07:00"}
+{"level":"info","time":"2025-09-30T18:06:59+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-09-30T18:06:59+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-09-30T18:06:59+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"26063fa3-45da-4920-a037-fc5ae7249bf3","time":"2025-09-30T18:07:02+07:00","message":"processing job"}
+{"level":"info","job_id":"26063fa3-45da-4920-a037-fc5ae7249bf3","time":"2025-09-30T18:07:03+07:00","message":"job is not pending"}
+{"level":"info","job_id":"1b430ada-f9e7-4a78-aaa5-e55df5b7801d","time":"2025-10-01T11:46:50+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/1b430ada-f9e7-4a78-aaa5-e55df5b7801d/input/152085-802335503_small.mp4","time":"2025-10-01T11:47:30+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T11:47:30+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"1b430ada-f9e7-4a78-aaa5-e55df5b7801d","time":"2025-10-01T11:47:34+07:00","message":"uploading transcoded files"}
+{"level":"error","error":"open 1080p.m3u8: no such file or directory","time":"2025-10-01T11:49:42+07:00","message":"failed to upload directory"}
+{"level":"error","time":"2025-10-01T11:49:42+07:00","message":"failed to handle message"}
+{"level":"error","time":"2025-10-01T11:49:45+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-10-01T11:49:48+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-01T11:49:48+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-10-01T11:49:48+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-10-01T11:49:48+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T11:49:52+07:00"}
+{"level":"info","time":"2025-10-01T11:49:52+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T11:49:52+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T11:49:52+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"1b430ada-f9e7-4a78-aaa5-e55df5b7801d","time":"2025-10-01T11:49:53+07:00","message":"processing job"}
+{"level":"info","job_id":"1b430ada-f9e7-4a78-aaa5-e55df5b7801d","time":"2025-10-01T11:49:55+07:00","message":"job is not pending"}
+{"level":"info","job_id":"fe31f26f-1d08-4ca4-99c4-504be227e2ef","time":"2025-10-01T11:50:03+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/fe31f26f-1d08-4ca4-99c4-504be227e2ef/input/152085-802335503_small.mp4","time":"2025-10-01T11:50:04+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T11:50:04+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"fe31f26f-1d08-4ca4-99c4-504be227e2ef","time":"2025-10-01T11:50:07+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-10-01T11:51:14+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-10-01T11:52:12+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-01T11:52:12+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-01T11:52:12+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-10-01T11:52:12+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T11:52:13+07:00"}
+{"level":"info","time":"2025-10-01T11:52:13+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T11:52:13+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T11:52:13+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"fe31f26f-1d08-4ca4-99c4-504be227e2ef","time":"2025-10-01T11:52:15+07:00","message":"processing job"}
+{"level":"info","job_id":"fe31f26f-1d08-4ca4-99c4-504be227e2ef","time":"2025-10-01T11:52:16+07:00","message":"job is not pending"}
+{"level":"info","job_id":"88f6c073-48c3-4fe1-b540-1a17c91566f2","time":"2025-10-01T11:52:22+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/88f6c073-48c3-4fe1-b540-1a17c91566f2/input/152085-802335503_small.mp4","time":"2025-10-01T11:52:25+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T11:52:25+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"88f6c073-48c3-4fe1-b540-1a17c91566f2","time":"2025-10-01T11:52:28+07:00","message":"uploading transcoded files"}
+{"level":"error","time":"2025-10-01T11:53:03+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-10-01T15:27:19+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-01T15:27:19+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-10-01T15:27:19+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-10-01T15:27:19+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T15:27:21+07:00"}
+{"level":"info","time":"2025-10-01T15:27:21+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T15:27:21+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T15:27:21+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"88f6c073-48c3-4fe1-b540-1a17c91566f2","time":"2025-10-01T15:27:23+07:00","message":"processing job"}
+{"level":"info","job_id":"88f6c073-48c3-4fe1-b540-1a17c91566f2","time":"2025-10-01T15:27:23+07:00","message":"job is not pending"}
+{"level":"info","job_id":"e8fb8acb-31cd-46d4-b156-33427de5f5fe","time":"2025-10-01T15:33:30+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/e8fb8acb-31cd-46d4-b156-33427de5f5fe/input/152085-802335503_small.mp4","time":"2025-10-01T15:33:30+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T15:33:31+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"e8fb8acb-31cd-46d4-b156-33427de5f5fe","time":"2025-10-01T15:33:34+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-10-01T15:33:34+07:00","message":"deleting original file"}
+{"level":"info","time":"2025-10-01T15:36:20+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-01T15:36:20+07:00","message":"server shutdown"}
+{"level":"error","error":"context canceled","time":"2025-10-01T15:36:20+07:00","message":"Consume"}
+{"level":"info","time":"2025-10-01T15:36:20+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T15:36:22+07:00"}
+{"level":"info","time":"2025-10-01T15:36:23+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T15:36:23+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T15:36:23+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b188381c-3990-4a75-a2ae-46b020719d41","time":"2025-10-01T15:36:32+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/b188381c-3990-4a75-a2ae-46b020719d41/input/152085-802335503_small.mp4","time":"2025-10-01T15:36:32+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T15:36:33+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"b188381c-3990-4a75-a2ae-46b020719d41","time":"2025-10-01T15:36:35+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-10-01T15:37:48+07:00","message":"deleting original file"}
+{"level":"error","time":"2025-10-01T15:38:51+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-10-01T15:40:19+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-01T15:40:19+07:00","message":"server shutdown"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-01T15:40:19+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-10-01T15:40:19+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T15:40:21+07:00"}
+{"level":"info","time":"2025-10-01T15:40:21+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T15:40:21+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T15:40:21+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"b188381c-3990-4a75-a2ae-46b020719d41","time":"2025-10-01T15:40:24+07:00","message":"processing job"}
+{"level":"info","job_id":"b188381c-3990-4a75-a2ae-46b020719d41","time":"2025-10-01T15:40:24+07:00","message":"job is not pending"}
+{"level":"info","job_id":"87c93150-b665-4521-b471-efec19b8d713","time":"2025-10-01T15:40:33+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/87c93150-b665-4521-b471-efec19b8d713/input/152085-802335503_small.mp4","time":"2025-10-01T15:40:33+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T15:40:33+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"87c93150-b665-4521-b471-efec19b8d713","time":"2025-10-01T15:40:36+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-10-01T15:40:43+07:00","message":"deleting original file"}
+{"level":"info","time":"2025-10-01T15:41:07+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-01T15:41:07+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T15:41:10+07:00"}
+{"level":"info","time":"2025-10-01T15:41:10+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T15:41:10+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T15:41:10+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"1b0cffee-7bbf-4f52-af1a-4a59d0c38ea3","time":"2025-10-01T15:41:15+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/1b0cffee-7bbf-4f52-af1a-4a59d0c38ea3/input/152085-802335503_small.mp4","time":"2025-10-01T15:41:15+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T15:41:15+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"1b0cffee-7bbf-4f52-af1a-4a59d0c38ea3","time":"2025-10-01T15:41:18+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-10-01T15:41:18+07:00","message":"deleting original file"}
+{"level":"info","time":"2025-10-01T15:41:34+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-01T15:41:34+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T15:41:35+07:00"}
+{"level":"info","time":"2025-10-01T15:41:35+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T15:41:35+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T15:41:35+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"758503b4-1b97-4916-b9fa-0bcb7a547bf8","time":"2025-10-01T15:41:41+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/758503b4-1b97-4916-b9fa-0bcb7a547bf8/input/152085-802335503_small.mp4","time":"2025-10-01T15:41:41+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T15:41:41+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"758503b4-1b97-4916-b9fa-0bcb7a547bf8","time":"2025-10-01T15:41:44+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-10-01T15:41:44+07:00","message":"deleting original file"}
+{"level":"info","job_id":"39f77784-1fb4-4c5c-888d-2debaef35934","time":"2025-10-01T15:43:09+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/39f77784-1fb4-4c5c-888d-2debaef35934/input/152085-802335503_small.mp4","time":"2025-10-01T15:43:09+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-01T15:43:09+07:00","message":"transcode file"}
+{"level":"info","destination_prefix":"39f77784-1fb4-4c5c-888d-2debaef35934","time":"2025-10-01T15:43:11+07:00","message":"uploading transcoded files"}
+{"level":"info","time":"2025-10-01T15:43:12+07:00","message":"deleting original file"}
+{"level":"error","time":"2025-10-01T15:43:12+07:00","message":"failed to acknowledge message"}
+{"level":"info","time":"2025-10-01T17:07:21+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-01T17:07:21+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-10-01T17:07:21+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-10-01T17:07:21+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T22:52:07+07:00"}
+{"level":"info","time":"2025-10-01T22:52:07+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T22:52:07+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T22:52:07+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"39f77784-1fb4-4c5c-888d-2debaef35934","time":"2025-10-01T22:52:07+07:00","message":"processing job"}
+{"level":"error","error":"record not found","time":"2025-10-01T22:52:07+07:00","message":"failed to find job by id"}
+{"level":"error","time":"2025-10-01T22:52:07+07:00","message":"failed to handle message"}
+{"level":"info","time":"2025-10-01T22:52:13+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-01T22:52:13+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-01T22:52:14+07:00"}
+{"level":"info","time":"2025-10-01T22:52:14+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-01T22:52:14+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-01T22:52:14+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","time":"2025-10-02T10:55:27+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-02T10:55:27+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-02T15:51:05+07:00"}
+{"level":"info","time":"2025-10-02T15:51:05+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-02T15:51:05+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-02T15:51:05+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"6ba4a531-c283-4cb5-976a-0ec23dce9fa2","time":"2025-10-02T15:51:05+07:00","message":"processing job"}
+{"level":"error","error":"record not found","time":"2025-10-02T15:51:05+07:00","message":"failed to find job by id"}
+{"level":"error","time":"2025-10-02T15:51:05+07:00","message":"failed to handle message"}
+{"level":"info","job_id":"64a50ef8-85fd-4eab-820f-a6faae68f2c6","time":"2025-10-02T15:51:26+07:00","message":"processing job"}
+{"level":"error","time":"2025-10-02T15:51:31+07:00","message":"failed to handle message"}
+{"level":"info","time":"2025-10-02T15:51:56+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-02T15:51:56+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-02T15:51:59+07:00"}
+{"level":"info","time":"2025-10-02T15:51:59+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-02T15:51:59+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-02T15:51:59+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"fa82c8e4-4b34-4a54-b21e-de7cc8e1d9ec","time":"2025-10-02T15:52:15+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/fa82c8e4-4b34-4a54-b21e-de7cc8e1d9ec/input/1759395127979-file","time":"2025-10-02T15:52:34+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-02T15:52:37+07:00","message":"transcode file"}
+{"level":"info","time":"2025-10-02T15:52:44+07:00","message":"upload transcode file"}
+{"level":"info","time":"2025-10-02T15:52:46+07:00","message":"deleting original file"}
+{"level":"error","error":"pq: column \"url\" of relation \"lessons\" does not exist","time":"2025-10-02T15:53:03+07:00","message":"failed to update lesson video url"}
+{"level":"error","time":"2025-10-02T15:53:03+07:00","message":"failed to handle message"}
+{"level":"info","time":"2025-10-02T15:53:59+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-02T15:53:59+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-02T15:54:02+07:00"}
+{"level":"info","time":"2025-10-02T15:54:02+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-02T15:54:02+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-02T15:54:02+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"56986cf1-df34-48c9-a4e6-5669cbce8afd","time":"2025-10-02T15:55:35+07:00","message":"processing job"}
+{"level":"info","input_file":"temp/56986cf1-df34-48c9-a4e6-5669cbce8afd/input/1759395285377-file","time":"2025-10-02T15:55:36+07:00","message":"downloading input file"}
+{"level":"info","time":"2025-10-02T15:55:36+07:00","message":"transcode file"}
+{"level":"info","time":"2025-10-02T15:55:39+07:00","message":"upload transcode file"}
+{"level":"info","time":"2025-10-02T15:55:39+07:00","message":"deleting original file"}
+{"level":"info","job_id":"56986cf1-df34-48c9-a4e6-5669cbce8afd","time":"2025-10-02T15:55:39+07:00","message":"job completed"}
+{"level":"info","time":"2025-10-03T15:16:23+07:00","message":"shutting down server"}
+{"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-03T15:16:23+07:00","message":"Failed to close RabbitMQ connection"}
+{"level":"info","time":"2025-10-03T15:16:23+07:00","message":"RabbitMQ connection closed"}
+{"level":"info","env":"development","time":"2025-10-03T15:16:23+07:00","message":"server shutdown"}
