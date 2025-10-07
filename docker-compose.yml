@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: go_ffmpeg_app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+    networks:
+      - compose_lms_network
+    restart: always
+
+networks:
+  compose_lms_network:
+    external: true

@@ -2,9 +2,11 @@ package rabbitmq
 
 import (
 	"context"
+	"github.com/cenkalti/backoff/v5"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/rs/zerolog"
 	"sync"
+	"time"
 	"worker-transcode/config"
 )
 
@@ -28,7 +30,10 @@ func (c consumer[T]) Consume(ctx context.Context, dependencies T) error {
 
 	exchangeName := "transcoding_exchange"
 	queueName := "transcoding_queue"
-	routingKey := "transcoding.request"
+	routingKey := "video.transcoding.request"
+	dlxName := "transcoding_exchange_dlx"
+	dlqName := "transcoding_queue_dlq"
+	dlqRoutingKey := "dlq.video.transcoding.request"
 
 	err = ch.ExchangeDeclare(exchangeName, c.cfg.Kind, true, false, false, false, nil)
 	if err != nil {
@@ -36,7 +41,29 @@ func (c consumer[T]) Consume(ctx context.Context, dependencies T) error {
 		return err
 	}
 
-	q, err := ch.QueueDeclare(queueName, false, false, false, false, nil)
+	err = ch.ExchangeDeclare(dlxName, c.cfg.Kind, true, false, false, false, nil)
+	if err != nil {
+		zerolog.Ctx(ctx).Error().Msg("failed to declare dlx")
+		return err
+	}
+
+	dlq, err := ch.QueueDeclare(dlqName, true, false, false, false, nil)
+	if err != nil {
+		zerolog.Ctx(ctx).Error().Msg("failed to declare dlq")
+		return err
+	}
+
+	err = ch.QueueBind(dlq.Name, dlqRoutingKey, dlxName, false, nil)
+	if err != nil {
+		zerolog.Ctx(ctx).Error().Msg("failed to bind dlq")
+		return err
+	}
+
+	args := amqp.Table{
+		"x-dead-letter-exchange":    dlxName,
+		"x-dead-letter-routing-key": dlqRoutingKey,
+	}
+	q, err := ch.QueueDeclare(queueName, true, false, false, false, args)
 	if err != nil {
 		zerolog.Ctx(ctx).Error().Str("queue", queueName).Msg("failed to declare queue")
 		return err
@@ -67,16 +94,27 @@ func (c consumer[T]) Consume(ctx context.Context, dependencies T) error {
 		go func(workerId int) {
 			defer wg.Done()
 			for msg := range jobs {
-				if err := c.handler(ctx, msg, dependencies); err != nil {
-					zerolog.Ctx(ctx).Error().Msg("failed to handle message")
-					//err := msg.Nack(false, true)
-					//if err != nil {
-					//	return
-					//}
-
+				operation := func() (string, error) {
+					err := c.handler(ctx, msg, dependencies)
+					if err != nil {
+						return "", err
+					}
+					return "", nil
 				}
-				if err := msg.Ack(false); err != nil {
-					zerolog.Ctx(ctx).Error().Msg("failed to acknowledge message")
+
+				bo := backoff.NewExponentialBackOff()
+				bo.MaxInterval = 10 * time.Second
+
+				_, err := backoff.Retry(ctx, operation, backoff.WithBackOff(bo), backoff.WithMaxTries(5))
+				if err != nil {
+					zerolog.Ctx(ctx).Error().Err(err).Msg("failed to handle message after all retries")
+					if nackErr := msg.Nack(false, false); nackErr != nil {
+						zerolog.Ctx(ctx).Error().Err(nackErr).Msg("failed to nack message to send to DLQ")
+					}
+				} else {
+					if ackErr := msg.Ack(false); ackErr != nil {
+						zerolog.Ctx(ctx).Error().Err(ackErr).Msg("failed to acknowledge message")
+					}
 				}
 			}
 		}(i)

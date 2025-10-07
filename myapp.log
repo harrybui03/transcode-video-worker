@@ -706,3 +706,57 @@
 {"level":"error","error":"Exception (504) Reason: \"channel/connection is not open\"","time":"2025-10-03T15:16:23+07:00","message":"Failed to close RabbitMQ connection"}
 {"level":"info","time":"2025-10-03T15:16:23+07:00","message":"RabbitMQ connection closed"}
 {"level":"info","env":"development","time":"2025-10-03T15:16:23+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-05T16:34:33+07:00"}
+{"level":"info","time":"2025-10-05T16:34:33+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-05T16:34:33+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-05T16:34:33+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","time":"2025-10-05T16:34:38+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-05T16:34:38+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-07T16:22:05+07:00"}
+{"level":"info","time":"2025-10-07T16:22:05+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-07T16:22:05+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-07T16:22:05+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"error","time":"2025-10-07T16:22:05+07:00","message":"failed to declare dlx"}
+{"level":"error","error":"Exception (406) Reason: \"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'transcoding_exchange_dlx' in vhost '/': received 'direct' but current is 'topic'\"","time":"2025-10-07T16:22:05+07:00","message":"Consume"}
+{"level":"info","time":"2025-10-07T16:23:16+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-07T16:23:16+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-07T16:23:18+07:00"}
+{"level":"info","time":"2025-10-07T16:23:18+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-07T16:23:18+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-07T16:23:18+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"error","queue":"transcoding_queue","time":"2025-10-07T16:23:18+07:00","message":"failed to declare queue"}
+{"level":"error","error":"Exception (406) Reason: \"PRECONDITION_FAILED - inequivalent arg 'x-dead-letter-routing-key' for queue 'transcoding_queue' in vhost '/': received 'video.transcoding.dlq' but current is 'dlq.video.transcoding.request'\"","time":"2025-10-07T16:23:18+07:00","message":"Consume"}
+{"level":"info","time":"2025-10-07T16:23:57+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-07T16:23:57+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-07T16:23:59+07:00"}
+{"level":"info","time":"2025-10-07T16:23:59+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-07T16:23:59+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-07T16:23:59+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","time":"2025-10-07T16:24:52+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-07T16:24:52+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-07T16:24:55+07:00"}
+{"level":"info","time":"2025-10-07T16:24:55+07:00","message":"Successfully connected to RabbitMQ"}
+{"level":"info","env":"development","time":"2025-10-07T16:24:55+07:00","message":"start http server"}
+{"level":"error","env":"development","time":"2025-10-07T16:24:55+07:00","message":"listen tcp :8080: bind: address already in use"}
+{"level":"info","job_id":"539f179f-20f3-4826-a318-1904ba297d5d","time":"2025-10-07T16:25:29+07:00","message":"processing job"}
+{"level":"error","error":"job not found","time":"2025-10-07T16:25:35+07:00","message":"failed to find job by id"}
+{"level":"info","job_id":"539f179f-20f3-4826-a318-1904ba297d5d","time":"2025-10-07T16:25:56+07:00","message":"processing job"}
+{"level":"error","error":"job not found","time":"2025-10-07T16:25:58+07:00","message":"failed to find job by id"}
+{"level":"info","job_id":"539f179f-20f3-4826-a318-1904ba297d5d","time":"2025-10-07T16:25:59+07:00","message":"processing job"}
+{"level":"error","error":"job not found","time":"2025-10-07T16:26:02+07:00","message":"failed to find job by id"}
+{"level":"info","job_id":"539f179f-20f3-4826-a318-1904ba297d5d","time":"2025-10-07T16:26:03+07:00","message":"processing job"}
+{"level":"error","error":"job not found","time":"2025-10-07T16:26:14+07:00","message":"failed to find job by id"}
+{"level":"info","job_id":"539f179f-20f3-4826-a318-1904ba297d5d","time":"2025-10-07T16:26:17+07:00","message":"processing job"}
+{"level":"error","error":"job not found","time":"2025-10-07T16:26:21+07:00","message":"failed to find job by id"}
+{"level":"error","error":"job not found","time":"2025-10-07T16:26:21+07:00","message":"failed to handle message after all retries"}
+{"level":"info","time":"2025-10-07T16:28:25+07:00","message":"shutting down server"}
+{"level":"info","env":"development","time":"2025-10-07T16:28:25+07:00","message":"server shutdown"}
+{"level":"info","env":"development","isProduction":false,"time":"2025-10-07T16:49:49+07:00"}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:49+07:00","message":"Failed to connect to RabbitMQ. Retrying..."}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:50+07:00","message":"Failed to connect to RabbitMQ. Retrying..."}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:50+07:00","message":"Failed to connect to RabbitMQ. Retrying..."}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:52+07:00","message":"Failed to connect to RabbitMQ. Retrying..."}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:53+07:00","message":"Failed to connect to RabbitMQ. Retrying..."}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:53+07:00","message":"Failed to connect to RabbitMQ. Retrying..."}
+{"level":"error","error":"dial tcp: lookup rabbitmq: no such host","time":"2025-10-07T16:49:53+07:00","message":"NewRabbitMQConn"}
+{"level":"info","env":"development","time":"2025-10-07T16:49:53+07:00","message":"start http server"}

@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+	"errors"
 	"github.com/minio/minio-go/v7"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
@@ -13,6 +14,8 @@ import (
 	"worker-transcode/dto"
 	"worker-transcode/repository"
 )
+
+var ErrNonRetryable = errors.New("non-retryable error")
 
 type Service interface {
 	Process(ctx context.Context, message dto.JobMessage) error
@@ -45,8 +48,15 @@ func (s service) Process(ctx context.Context, message dto.JobMessage) (err error
 
 	defer func() {
 		if err != nil {
-			if updateErr := s.repo.UpdateStatusJob(ctx, constant.JobStatusFailed, message.JobId); updateErr != nil {
-				log.Error().Err(updateErr).Msg("failed to update job status")
+			if errors.Is(err, ErrNonRetryable) {
+				if updateErr := s.repo.UpdateStatusJob(ctx, constant.JobStatusFailed, message.JobId); updateErr != nil {
+					log.Error().Err(updateErr).Msg("failed to update job status")
+				}
+				err = nil
+			} else {
+				if updateErr := s.repo.UpdateStatusJob(ctx, constant.JobStatusPending, message.JobId); updateErr != nil {
+					log.Error().Err(updateErr).Msg("failed to update job status")
+				}
 			}
 		}
 	}()
@@ -59,11 +69,11 @@ func (s service) Process(ctx context.Context, message dto.JobMessage) (err error
 
 	if err = os.MkdirAll(inputDir, os.ModePerm); err != nil {
 		zerolog.Ctx(ctx).Error().Err(err).Msg("failed to create input directory")
-		return err
+		return errors.Join(ErrNonRetryable, err)
 	}
 	if err = os.MkdirAll(outputDir, os.ModePerm); err != nil {
 		zerolog.Ctx(ctx).Error().Err(err).Msg("failed to create output dir")
-		return err
+		return errors.Join(ErrNonRetryable, err)
 	}
 
 	inputFilepath := filepath.Join(inputDir, fileName)
@@ -77,12 +87,12 @@ func (s service) Process(ctx context.Context, message dto.JobMessage) (err error
 	zerolog.Ctx(ctx).Info().Msg("transcode file")
 	if err = transcodeToHLS(inputFilepath, outputDir); err != nil {
 		zerolog.Ctx(ctx).Error().Err(err).Msg("failed to transcode file")
-		return err
+		return errors.Join(ErrNonRetryable, err)
 	}
 
 	if err = createMasterPlaylist(outputDir); err != nil {
 		zerolog.Ctx(ctx).Error().Err(err).Msg("failed to create master playlist")
-		return err
+		return errors.Join(ErrNonRetryable, err)
 	}
 
 	zerolog.Ctx(ctx).Info().Msg("upload transcode file")

@@ -7,16 +7,16 @@ server:
   port: "8080"
   workers: 5
 
-postgresql_host: "postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable"
+postgresql_host: "postgres://postgres:postgres@db:5432/postgres?sslmode=disable"
 
-rabbitmq_host: "localhost"
+rabbitmq_host: "rabbitmq"
 rabbitmq_port: 5672
 rabbitmq_user: "guest"
 rabbitmq_pass: "guest"
 rabbitmq_kind: "topic"
 
 minio:
-  url: "localhost:9000"
+  url: "minio:9000"
   access_id: "minioadmin"
   secret_access_key: "minioadmin"
   bucket: "edtech-content"

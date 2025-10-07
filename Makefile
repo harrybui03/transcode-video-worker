@@ -10,3 +10,5 @@ install-ffmpeg:
 	@sudo apt-get update && sudo apt-get install -y ffmpeg
 create-config-file:
 	cp config.tmp.yaml config.yaml
+run:
+	@go run main.go server
