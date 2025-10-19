@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
 	"net/http"
 	"os"
 	"os/signal"
@@ -84,13 +83,8 @@ func setupLogger(cfg *config.Config) context.Context {
 		zerolog.SetGlobalLevel(zerolog.DebugLevel)
 	}
 
-	runLogFile, err := os.OpenFile("myapp.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
-	if err != nil {
-		log.Error().Err(err).Msg("open log file")
-	}
-
-	multi := zerolog.MultiLevelWriter(os.Stdout, runLogFile)
-	logger := zerolog.New(multi).With().Timestamp().Logger()
+	// Log to standard output
+	logger := zerolog.New(os.Stdout).With().Timestamp().Logger()
 	ctx := logger.WithContext(context.Background())
 
 	return ctx
