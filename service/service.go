@@ -41,7 +41,7 @@ func (s service) Process(ctx context.Context, message dto.JobMessage) (err error
 		return nil
 	}
 
-	if err := s.repo.UpdateStatusJob(ctx, constant.JobStatusRunning, message.JobId); err != nil {
+	if err := s.repo.UpdateStatusJob(ctx, constant.JobStatusProcessing, message.JobId); err != nil {
 		log.Error().Err(err).Msg("failed to update job status")
 		return err
 	}

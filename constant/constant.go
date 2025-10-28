@@ -3,10 +3,10 @@ package constant
 type JobStatus string
 
 const (
-	JobStatusPending   JobStatus = "PENDING"
-	JobStatusRunning   JobStatus = "RUNNING"
-	JobStatusFailed    JobStatus = "FAILED"
-	JobStatusCompleted JobStatus = "COMPLETED"
+	JobStatusPending    JobStatus = "PENDING"
+	JobStatusProcessing JobStatus = "PROCESSING"
+	JobStatusFailed     JobStatus = "FAILED"
+	JobStatusCompleted  JobStatus = "COMPLETED"
 )
 
 type JobType string
