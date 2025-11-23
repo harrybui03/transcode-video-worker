@@ -12,7 +12,8 @@ const (
 type JobType string
 
 const (
-	JobTypeTranscoder JobType = "transcoder"
+	JobTypeTranscoder     JobType = "transcoder"
+	JobTypeRecordingMerge JobType = "recording_merge"
 )
 
 type Environment string

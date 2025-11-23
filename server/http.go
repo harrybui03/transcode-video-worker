@@ -34,13 +34,29 @@ func RunHttp(cfg *config.Config) {
 	}
 
 	repo := repository.NewRepo(cfg.DB)
-	service := service.NewService(repo, cfg)
+	transcodeService := service.NewService(repo, cfg)
+	recordingMergeService := service.NewRecordingMergeService(repo, cfg)
 
-	consumer := rabbitmq.NewConsumer(conn, cfg.Queue, cfg.Server.Workers, jobHandler.JobHandler)
+	serviceDeps := jobHandler.ServiceDependencies{
+		TranscodeService:      transcodeService,
+		RecordingMergeService: recordingMergeService,
+	}
+
+	// Start transcoding consumer
+	transcodeConsumer := rabbitmq.NewConsumer(conn, cfg.Queue, cfg.Server.Workers, jobHandler.JobHandler)
 	go func() {
-		err := consumer.Consume(ctx, service)
+		err := transcodeConsumer.Consume(ctx, serviceDeps)
 		if err != nil {
-			zerolog.Ctx(ctx).Error().Err(err).Msg("Consume")
+			zerolog.Ctx(ctx).Error().Err(err).Msg("Transcode consumer error")
+		}
+	}()
+
+	// Start recording merge consumer
+	recordingConsumer := rabbitmq.NewRecordingConsumer(conn, cfg.Queue, cfg.Server.Workers, jobHandler.RecordingMergeHandler)
+	go func() {
+		err := recordingConsumer.Consume(ctx, serviceDeps)
+		if err != nil {
+			zerolog.Ctx(ctx).Error().Err(err).Msg("Recording merge consumer error")
 		}
 	}()
 
