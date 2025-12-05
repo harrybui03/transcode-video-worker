@@ -17,6 +17,10 @@ type JobRepository interface {
 	FindJobById(ctx context.Context, id uuid.UUID) (*entities.Job, error)
 	UpdateStatusJob(context context.Context, status constant.JobStatus, id uuid.UUID) error
 	UpdateLessonVideoURL(ctx context.Context, lessonId uuid.UUID, url string) error
+	GetRecordingsByLessonId(ctx context.Context, lessonId uuid.UUID) ([]*entities.Recording, error)
+	GetRecordingChunksByLiveSessionId(ctx context.Context, liveSessionId uuid.UUID) ([]*entities.RecordingChunk, error)
+	UpdateRecordingChunkStatus(ctx context.Context, chunkId uuid.UUID, status string) error
+	UpdateLiveSessionRecording(ctx context.Context, liveSessionId uuid.UUID, recordingStatus string, finalVideoObjectName string, recordingDuration int, totalChunks int) error
 }
 
 type repo struct {
@@ -81,4 +85,46 @@ func (r *repo) Transaction(ctx context.Context, callback func(ctx context.Contex
 		}
 		return nil
 	}, opts...)
+}
+
+func (r *repo) GetRecordingsByLessonId(ctx context.Context, lessonId uuid.UUID) ([]*entities.Recording, error) {
+	var recordings []*entities.Recording
+	err := r.GetDB().Where("lesson_id = ?", lessonId).Order("chunk_number ASC").Find(&recordings).Error
+	if err != nil {
+		return nil, err
+	}
+	return recordings, nil
+}
+
+func (r *repo) GetRecordingChunksByLiveSessionId(ctx context.Context, liveSessionId uuid.UUID) ([]*entities.RecordingChunk, error) {
+	var chunks []*entities.RecordingChunk
+	err := r.GetDB().Where("live_session_id = ?", liveSessionId).Order("chunk_index ASC").Find(&chunks).Error
+	if err != nil {
+		return nil, err
+	}
+	return chunks, nil
+}
+
+func (r *repo) UpdateRecordingChunkStatus(ctx context.Context, chunkId uuid.UUID, status string) error {
+	chunk := &entities.RecordingChunk{}
+	err := r.GetDB().Model(chunk).Where("id = ?", chunkId).Update("status", status).Error
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func (r *repo) UpdateLiveSessionRecording(ctx context.Context, liveSessionId uuid.UUID, recordingStatus string, finalVideoObjectName string, recordingDuration int, totalChunks int) error {
+	liveSession := &entities.LiveSession{}
+	updates := map[string]interface{}{
+		"recording_status":       recordingStatus,
+		"final_video_object_name": finalVideoObjectName,
+		"recording_duration":      recordingDuration,
+		"total_chunks":            totalChunks,
+	}
+	err := r.GetDB().Model(liveSession).Where("id = ?", liveSessionId).Updates(updates).Error
+	if err != nil {
+		return err
+	}
+	return nil
 }
