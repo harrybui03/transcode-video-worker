@@ -160,9 +160,11 @@ func (s *recordingMergeService) ProcessRecordingMerge(ctx context.Context, messa
 		Int("merged_chunks", len(chunkPaths)).
 		Msg("chunks merged successfully with FFmpeg")
 
-	// Determine output folder from first chunk's object_name (same folder as chunks)
-	outputFolder := filepath.Dir(chunks[0].ObjectName)
-	outputKey := filepath.Join(outputFolder, outputFileName)
+	// Build output path: live-recordings/{sessionId}/final/recording.mp4
+	// Get session folder from chunk path (e.g., live-recordings/{sessionId}/chunks/chunk_0000.webm -> live-recordings/{sessionId})
+	chunkFolder := filepath.Dir(chunks[0].ObjectName) // live-recordings/{sessionId}/chunks
+	sessionFolder := filepath.Dir(chunkFolder)        // live-recordings/{sessionId}
+	outputKey := filepath.Join(sessionFolder, "final", "recording.mp4")
 	outputKey = strings.ReplaceAll(outputKey, "\\", "/")
 
 	zerolog.Ctx(ctx).Info().Str("output_key", outputKey).Msg("uploading final video to MinIO")
